@@ -141,7 +141,7 @@ justify-content: center;
     border: none;
    background-color:black;
     width:45%;
-    height:40%;
+    height:auto;
     margin-right: 10px;
     
 
@@ -207,7 +207,7 @@ justify-content: center;
 .card{
     margin-left: 20px;
     width:360px;
-    height:500px;
+    height:auto;
     border-radius: 20px;
     overflow:hidden;
     border: 4px solid orange;
@@ -302,7 +302,7 @@ text-align: center;
 }
 .skill-body{
     width:320px;
-    height:320px;
+    height:auto;
     border:3px solid orange;
     color:white;
     font-weight: 600;
@@ -477,7 +477,7 @@ text-align: center;
 }
 .contact{
     width:800px;
-    height: 350px;
+    height: auto;
     background-color: white;
     border-radius: 20px;
     margin: 10px;
@@ -525,7 +525,7 @@ text-align: center;
     margin-top: 35px;;
 }.resume{
     background-color: whitesmoke;
-    height:100px;
+    height:auto;
     width:900px;
     margin-left: 325px;
     margin-bottom: 50px;
