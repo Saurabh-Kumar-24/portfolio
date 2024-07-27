@@ -518,27 +518,45 @@ text-align: center;
     background-color: black;
     
     text-align: center;
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 3rem;
     font-weight: 500px;
     color:white;
     margin-top: 35px;;
 }.resume{
-    background-color: whitesmoke;
-    height:auto;
-     width:auto;
-    margin-left: 325px;
-    margin-bottom: 50px;
+    /* background-color: whitesmoke;
+    /* height:auto;
+     width:auto; */
+    /* margin-left: 325px; */
+    /* margin-bottom: 50px;
     border-radius:15px;
-    border:3px solid orange;
-    
+    border:3px solid orange; */
+     
+    background-color: whitesmoke;
+    max-width: 800px; /* Set a max width for larger screens */
+    width: 100%; /* Make it responsive */
+    margin: 20px auto; /* Center it and add vertical margin */
+    border-radius: 15px;
+    border: 3px solid orange;
+   
 }
 .resume-container{
-    margin-top:10px;
+    /* margin-top:10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+     */
+     display: flex;
+     flex-direction: column; /* Stack elements vertically */
+     align-items: center; /* Center the items */
+     justify-content: center; 
 }
+   /**extra add on*/
+   .resume p {
+    font-size: 1.5rem; /* Use relative sizes */
+    margin: 10px 0; /* Add vertical spacing */
+}
+
 .resume:hover{
     border:3px solid blue;
 }
@@ -651,7 +669,7 @@ text-align: center;
         width: 120px;
     }
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .resume-container {
         flex-direction: column; 
         align-items: center; 
@@ -670,5 +688,14 @@ text-align: center;
     .resume p {
         font-size: 18px;
     }
-}
+} */
 
+@media (max-width: 768px) {
+    #resume {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .resume p {
+        font-size: 1.2rem; /* Adjust font size for paragraphs */
+    }
+}
