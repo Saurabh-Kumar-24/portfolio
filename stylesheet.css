@@ -191,7 +191,7 @@ justify-content: center;
     display: flex;
     justify-content: space-evenly;
     background-color: black;
-    height:650px;
+     height:auto;/*650px; */
 }
 
 .about h1{
