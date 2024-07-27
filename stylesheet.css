@@ -524,7 +524,7 @@ text-align: center;
     margin-top: 35px;;
 }.resume{
     background-color: whitesmoke;
-    height:100px;
+    height:auto;/*100px*/
     width:900px;
     margin-left: 325px;
     margin-bottom: 50px;
