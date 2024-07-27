@@ -551,3 +551,104 @@ text-align: center;
     margin-top:90px;
     margin-bottom:30px;
 }
+
+@media (max-width: 1200px) {
+    .profile, .about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-container, .description {
+        width: 90%;
+        margin: 20px;
+    }
+    .card, .project, .skill-body {
+        width: 90%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    .image-container img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .description p {
+        font-size: 20px;
+    }
+    .card-title {
+        font-size: 30px;
+    }
+    .card-sub-title {
+        font-size: 16px;
+    }
+    .card-info {
+        font-size: 16px;
+    }
+    .skill-title {
+        font-size: 24px;
+    }
+    .project-name {
+        font-size: 30px;
+    }
+    .project p {
+        font-size: 18px;
+    }
+    .contact p {
+        font-size: 28px;
+    }
+    #name {
+        font-size: 36px;
+    }
+    #greet {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        font-size: 1.2rem;
+    }
+    .description p {
+        font-size: 18px;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+    .card-sub-title {
+        font-size: 14px;
+    }
+    .card-info {
+        font-size: 14px;
+    }
+    .skill-title {
+        font-size: 20px;
+    }
+    .project-name {
+        font-size: 24px;
+    }
+    .project p {
+        font-size: 16px;
+    }
+    .contact p {
+        font-size: 24px;
+    }
+    #name {
+        font-size: 30px;
+    }
+    #greet {
+        font-size: 20px;
+    }
+    .project-logo img {
+        height: 120px;
+        width: 120px;
+    }
+}
