@@ -40,9 +40,9 @@ nav {
     font-size: 1.5rem;
 }
 
-.nav-links:hover {
+/* .nav-links:hover {
     transform: scale(1.2); 
-}
+} */
 
 .nav-links a {
     color: blue;
