@@ -37,7 +37,7 @@ nav {
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 /* .nav-links:hover {
@@ -46,7 +46,7 @@ nav {
 
 .nav-links a {
     color: blue;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
 }
 
